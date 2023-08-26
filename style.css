@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+h2{
+    font-size: 46px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 300px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.redirect{
+    display: flex;
+    gap: 30px;
+}
+
+
+.signup, .profile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 80vh;
+    gap: 15px;
+    width: 60%;
+    margin-inline: auto;
+
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 15px;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+button{
+    height:50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+#message{
+    color: rgb(0, 119, 255);
+    padding: 30px 0;
+    height: 30px;
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+p{
+    font-size: 20px;
+}
+
+
